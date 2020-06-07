@@ -1,7 +1,7 @@
 def my_each(array) # put argument(s) here
   i = 0
-  while i < 3
-   yield array[i]
+  while i < 1
+    puts array[i]
     i =+ 1
   end 
   return array
