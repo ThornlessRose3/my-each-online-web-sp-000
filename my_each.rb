@@ -3,8 +3,8 @@ def my_each(array) # put argument(s) here
   s = 0
   while s < l
     yield array[s]
-    s =+ 1
-    l =+ 1
+    s += 1
+    l += 1
   end 
   return array
 end
